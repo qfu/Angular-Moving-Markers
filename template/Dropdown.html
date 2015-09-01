@@ -1,0 +1,16 @@
+<select name="selectType" ng-model="selectType" >
+    <option value="">All</option>
+    <option ng-repeat="value in typeFilter" value="{{value}}">{{value}}</option>
+</select>
+
+
+<select name="selectTitle" ng-model="selectTitle" >
+    <option value="">All</option>
+    <option ng-repeat="value in titleFilter" value="{{value}}">{{value}}</option>
+</select>
+
+
+<select name="selectSize" ng-model="selectSize" >
+    <option value="">All</option>
+    <option ng-repeat="value in sizeFilter" value="{{value}}">{{value}}</option>
+</select>

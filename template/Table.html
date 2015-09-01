@@ -1,0 +1,9 @@
+<table>
+    <tr ng-repeat="marker in markers| filter:{title:selectTitle,size:selectSize,type:selectType}" >
+        <td>{{ marker.title }}</td>
+        <td>{{ marker.size }}</td>
+        <td>{{ marker.type }}</td>
+        <td>{{ marker.latitude }}</td>
+        <td>{{ marker.longitude }}</td>
+    </tr>
+</table>
